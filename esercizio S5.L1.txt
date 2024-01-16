@@ -80,3 +80,30 @@ Supercalifragilisti
 elemento2=input()
 chespiralidoso
 elemento1+elemento2
+
+Un utente inserisce tre parole e il programma produce in output la prima in maiuscolo, la seconda in minuscolo e la terza con l'iniziale maiuscola. Poi prende i primi tre caratteri di ognuna e li stampa a video
+parola1=input()
+Ciao
+>>> parola2=input()
+Come
+>>> parola3=input()
+Stai?
+>>> maiuscolo1=parola1.upper()
+>>> maiuscolo1[0]
+'C'
+>>> minuscolo2=parola2.lower()
+>>> minuscolo2[0]
+'c'
+>>> iniz_maiusc3=parola3.title()
+>>> iniz_maiusc3[0]
+'S'
+
+Un utente inserisce tre parole e il programma stampa il prodotto delle lunghezze delle parole
+parola1=input()
+Sto
+>>> parola2=input()
+Bene
+>>> parola3=input()
+Tu?
+>>> len(parola1)*len(parola2)*len(parola3)
+36
