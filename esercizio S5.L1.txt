@@ -1,0 +1,109 @@
+Individuiamo tre task di qualsiasi tipo (fare la spesa, studiare un concetto, riempire il serbatoio dell'auto, acquistare uno snack da un distributore automatico, o qualunque altra cosa); Scriviamo un algoritmo (in forma testuale), cioè i passi necessari, per ognuno dei task selezionati.
+ESERCIZIO 1 - FARE LA SPESA
+1 Scrivere una lista della spesa
+2 Andare al supermercato
+3 Prendere ciò che è stato scritto sulla lista della spesa
+4 Pagare alla cassa quello che è stato preso
+
+ESERCIZIO 2 - STUDIARE UN CONCETTO
+1 Rileggere o sistemare gli appunti presi a lezione
+2 Capire le spiegazioni del docente attraverso gli appunti
+  1 Se non si comprendono appieno aiutarsi con qualche libro
+3 Crearsi schemi concettuali che riassumano il concetto spiegato
+4 Provare a ripeterlo a voce per verificare che il concetto è stato appreso nel modo corretto
+
+ESERCIZIO 3 - APPENDERE UN QUADRO
+1 Decidere dove posizionare il quadro
+  1 Valutare in quale stanza verrà sistemato il quadro
+  2 Valutare su quale muro sistemarlo
+  3 Decidere la posizione esatta in cui verrà sistemato il quadro
+2 A seconda della posizione scelta, disegnare sul muro con una matita uno o più segni (a seconda del numero di ganci del quadro) in corrispondenza dei fori che bisogna creare per posizionarci i ganci
+3 Fare i fori con un trapano
+4 Posizionare i gancetti
+5 Appendere il quadro sui gancetti
+
+Abbiamo 25 studenti; memorizzare questo dato in una variabile.
+numero_studenti=25
+
+Abbiamo 25 studenti; memorizzare questo dato in una variabile e stamparla a video.
+numero_studenti=25
+print(numero_studenti)
+
+Abbiamo 25 studenti; memorizzare questo dato in una variabile. Arrivano altri 3 studenti; memorizzare questo dato in un'altra variabile.
+numero_studenti=25
+print(numero_studenti)
+nuovi_studenti=3
+
+Abbiamo 25 studenti; memorizzare questo dato in una variabile. Arrivano altri 3 studenti; memorizzare questo dato in un'altra variabile. Creare un'altra variabile ancora che conterrà la somma delle prime due, poi stamparla a video.
+numero_studenti=25
+print(numero_studenti)
+nuovi_studenti=3
+tot_studenti=numero_studenti+nuovi_studenti
+print(tot_studenti)
+
+Creare una variabile che contiene la stringa "Epicode", quindi stamparla a video.
+Corso="Epicode"
+Corso
+
+Creare, a mano, una lista che contenga i numeri da 0 a 5, memorizzarla in una variabile e infine stamparla a video.
+lista=[0,1,2,3,4,5]
+lista
+
+Abbiamo la stringa nome_scuola = "Epicode", stampare l'iniziale.
+nome_scuola = "Epicode"
+nome_scuola[0]
+
+Abbiamo la stringa nome_scuola = "Epicode", stampare le prime tre lettere.
+nome_scuola = "Epicode"
+nome_scuola[0:3]
+
+Abbiamo la variabile x=10, incrementarla di 2 e poi moltiplicarla per 3
+x=10
+y=x+2
+y*3
+
+Scriviamo un programma che chiede in input all'utente una stringa e visualizza i primi 3 caratteri, seguiti da 3 punti di sospensione e quindi gli ultimi 3 caratteri.
+nome=input()
+"Cellulare"
+Output=nome[0:4]+"..."+nome[-4:]
+Output
+
+Verificare, per ognuna delle seguenti stringhe, se il numero di caratteri è compreso tra 5 e 8: • Windows • Excel • Powerpoint • Word
+len("Windows")
+len("Excel")
+len("Powerpoint")
+len("Word")
+
+Inventare un programma che prende in input degli elementi e restituisce in output una loro combinazione (ad esempio prendendo in input due numeri e restituendo la loro somma).
+elemento1=input()
+Supercalifragilisti
+elemento2=input()
+chespiralidoso
+elemento1+elemento2
+
+Un utente inserisce tre parole e il programma produce in output la prima in maiuscolo, la seconda in minuscolo e la terza con l'iniziale maiuscola. Poi prende i primi tre caratteri di ognuna e li stampa a video
+parola1=input()
+Ciao
+>>> parola2=input()
+Come
+>>> parola3=input()
+Stai?
+>>> maiuscolo1=parola1.upper()
+>>> maiuscolo1[0]
+'C'
+>>> minuscolo2=parola2.lower()
+>>> minuscolo2[0]
+'c'
+>>> iniz_maiusc3=parola3.title()
+>>> iniz_maiusc3[0]
+'S'
+
+Un utente inserisce tre parole e il programma stampa il prodotto delle lunghezze delle parole
+parola1=input()
+Sto
+>>> parola2=input()
+Bene
+>>> parola3=input()
+Tu?
+>>> len(parola1)*len(parola2)*len(parola3)
+36
